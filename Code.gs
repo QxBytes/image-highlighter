@@ -1,5 +1,5 @@
 function onOpen(){ 
-  DocumentApp.getUi().createMenu("Custom")
+  DocumentApp.getUi().createMenu("Image Highlighter")
     .addItem("Color image", "colorImagePrompt")
     .addToUi(); 
 }
