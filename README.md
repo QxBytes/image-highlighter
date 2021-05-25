@@ -1,4 +1,6 @@
 # Automatic Image Highlighter for Google Docs
+![Capturebig2](https://user-images.githubusercontent.com/39818795/119440780-cd1bac00-bcd9-11eb-8481-b7b00c0586df.png)
+
 <ul>
   <li>Works with any image (vertical images work better than horizontal ones)</li>
   <li>Works with most text (see below)</li>
