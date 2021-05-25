@@ -44,7 +44,9 @@ im = im.convert('RGBA')
 
 default_resize = 70
 resize = default_resize if len(sys.argv) <= 3 else sys.argv[3]
-im = fit(im, resize)
+#Do not resize if -1
+if resize >= 0:
+    im = fit(im, resize)
 
 default_template = "#{hr}{hg}{hb} "
 template = default_template if len(sys.argv) == 1 else sys.argv[1] 
