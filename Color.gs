@@ -46,7 +46,7 @@ function colorImage(width=70) {
     }
     let select = Math.floor(line * ratio) * width + visible;
     if (select < data.length && data[select] !== "" && data[select] !== undefined) {
-      txtObj.setForegroundColor(index, index, data[select]);
+      txtObj.setBackgroundColor(index, index, data[select]);
     }
     visible++;
   }, doc);
