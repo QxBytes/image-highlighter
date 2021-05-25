@@ -11,7 +11,8 @@
 <h2>Steps for Preprocessing an Image (A useful tool on its own!)</h2>
 <ol>
   <li>Download an image, rename it to input.png (if it is a png), and put it in the same directory as <code>color.py</code></li>
-  <li>Run <code>color.py</code>, or, if you have a jpeg or want more features, run with the paramters below:
+  <li>Uses Pillow from pip: <code>python3 -m pip install --upgrade Pillow</code></li>
+  <li>Run <code>color.py</code> with python, or, if you have a jpeg or want more features, run with the paramters below:</li>
   <li>Run <code>color.py</code> with parameters <code>[TEMPLATE STRING] [FILE NAME] [CHARACTERS PER LINE]</code></li>
   <li>The following selectors are available
     <ul>
