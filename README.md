@@ -41,9 +41,9 @@
 <h2>Steps for highlighting an image</h2>
 <ol>
   <li>Create a new google doc, and paste the output of output.txt from before. The data may be 50+ pages. Be patient.</li>
-  <li>In google docs, go to <code>Tools > Script Editor</code> and import the .gs files. Make sure <code>DocUtils.gs</code> is at the top.</li>
+  <li>In google docs (the doc with text you want to have the image "overlayed" on, not the previously created doc), go to <code>Tools > Script Editor</code> and import the .gs files. Make sure <code>DocUtils.gs</code> is at the top.</li>
   <li>Save and return to the original doc. There should be a new menu item next to "Help" in the top bar</li>
   <li>Click on the option and it will prompt you. Follow the defaults or change them if you'd like</li>
-  <li>When it asks for an SRC link, COPY the URL of the google doc you pasted data into earlier</li>
+  <li>When it asks for an SRC link, COPY the URL of the google doc you pasted data into earlier in step 1</li>
   <li>Wait for 30 seconds and it should highlight everything automatically</li>
 </ol>
