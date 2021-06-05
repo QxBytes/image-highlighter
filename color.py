@@ -1,7 +1,7 @@
 from PIL import Image
 import sys
 #Default: 70 chars for 11 pt. roboto mono 142 chars for 7 pt, .1 margins
-#Template: #{hr}{hg}{hb}\n
+#Template: "#{hr}{hg}{hb} "
 #Image input: input.png // output: output.png
 #Requires PILLOW pip module
 def write(im, template, output):
@@ -43,7 +43,7 @@ im = Image.open(input_path)
 im = im.convert('RGBA')
 
 default_resize = 70
-resize = default_resize if len(sys.argv) <= 3 else sys.argv[3]
+resize = default_resize if len(sys.argv) <= 3 else int(sys.argv[3])
 #Do not resize if -1
 if resize >= 0:
     im = fit(im, resize)
